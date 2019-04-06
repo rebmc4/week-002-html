@@ -1,35 +1,43 @@
-# <html>
-        <title>ToDo List</title>
+<html>
     <head>
-    <h1>My ToDo Application</h1>
+        <title>ToDo List</title>
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
+        <h1>My ToDo Application</h1>
         <form>
-        <input type=“text” />
-            <button>Add</button>
+            <input type=“text” />
+            <button id ="addButton">Add</button>
         </form>
 
-        <p>Things to do: 2</p>
+        <p><strong>Things to do: 2</strong></p>
 
-    <table>
-        <tr> 
-            <td>
-                A first task <button type=“submit”>Done</button>
-            </td>
+        <table>
+            <tr> 
+                <td class="td1">
+                    A first task 
+                </td> 
+                <td>
+                    <button type=“submit”>Done</button>
+                </td>
 
-            <td>
-            <button type=“submit”>Delete</button>
-        </td>
-        </tr>
-        <tr>
-            <td>
-                A second task<button type=“submit”>Done</button>
-            </td>
-            
-            <td>
-             <button type=“submit”>Delete</button>
-        </td>
-        </tr>
-</table> 
+                 <td>
+                    <button type=“submit”>Delete</button>
+                 </td>
+            </tr>
+
+            <tr>
+                <td class="td1">
+                    A second task 
+                </td>
+                <td>
+                    <button type=“submit”>Done</button>
+                </td>
+             
+                <td>
+                    <button type=“submit”>Delete</button>
+                </td>
+            </tr>
+        </table> 
     </body>
 </html> 

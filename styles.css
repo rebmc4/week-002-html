@@ -1,0 +1,42 @@
+h1 {
+    color: darkslateblue;
+    border-style:dotted;
+    background-color: lavender;
+    padding: 1% 1%; 
+    font-size: 50;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center; 
+}
+
+input {
+    border-color: mediumslateblue;
+}
+
+#addButton {
+    border-color: mediumslateblue;
+    color: darkslateblue;
+}
+
+body {
+    background-color: lavenderblush;
+}
+
+p {
+    color: rgb(54, 26, 82);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+td { 
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(54, 26, 82);
+}
+
+button {
+    border-style:dotted;
+    border-color:darkslateblue;
+    font-family: 'Courier New', Courier, monospace; 
+}
+
+.td1 {
+    width: 200px; 
+}
