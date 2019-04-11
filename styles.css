@@ -15,6 +15,8 @@ input {
 #addButton {
     border-color: mediumslateblue;
     color: darkslateblue;
+    text-align: center; 
+
 }
 
 body {
@@ -39,4 +41,14 @@ button {
 
 .td1 {
     width: 200px; 
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: #C8B4DE;  
+    }
+
+    h1 {
+        font-size:20;  
+    }
 }
