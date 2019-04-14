@@ -4,7 +4,7 @@ h1 {
     background-color: lavender;
     padding: 1% 1%; 
     font-size: 50;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Homemade Apple';
     text-align: center; 
 }
 
@@ -12,11 +12,12 @@ input {
     border-color: mediumslateblue;
 }
 
-#addButton {
-    border-color: mediumslateblue;
-    color: darkslateblue;
-    text-align: center; 
-
+.btn-light {
+    border-color: lemonchiffon; 
+    color: lemonchiffon;
+    background-color: darkslateblue; 
+    border-style: dotted;
+    font-family: 'Arapey', 'serif'; 
 }
 
 body {
@@ -25,23 +26,19 @@ body {
 
 p {
     color: rgb(54, 26, 82);
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Arapey', serif;
+    text-align: center; 
+    font-size: 40; 
 }
 
 td { 
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Arapey', serif;
     color: rgb(54, 26, 82);
-}
-
-button {
-    border-style:dotted;
-    border-color:darkslateblue;
-    font-family: 'Courier New', Courier, monospace; 
 }
 
 .td1 {
     width: 200px; 
-}
+} 
 
 @media only screen and (max-width: 600px) {
     body {
