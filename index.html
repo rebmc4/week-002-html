@@ -1,47 +1,52 @@
 <html>
-    <head>
-        <title>ToDo List</title>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <link rel="stylesheet" href="styles.css">
-        <link rel="stylesheet" type="text/css" href="custom.css">
-        <link href="https://fonts.googleapis.com/css?family=Homemade+Apple" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Arapey" rel="stylesheet">
-    </head>
-    <body>
-        <h1>my todo application</h1>
-        <form>
-            <input type=“text” />
-            <button type="button" class="btn btn-light">Add</button>
-        </form>
 
-        <p><strong>things to do</strong></p>
+<head>
+    <title>ToDo List</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="custom.css">
+    <link href="https://fonts.googleapis.com/css?family=Homemade+Apple" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Arapey" rel="stylesheet">
+</head>
 
-        <table>
-            <tr> 
-                <td class="td1">
-                    A first task 
-                </td> 
-                <td>
-                    <button type="submit" class="btn btn-light">Done</button>
-                </td>
+<body>
+    <h1>my todo application</h1>
 
-                 <td>
-                    <button type="submit" class="btn btn-light">Delete</button>
-                 </td>
-            </tr>
+    <form>
+        <div class="form-group">
+            <input type="text" /> <button type="button" class="btn btn-light">Add</button>
+            <small id="list details" class="form-text text-muted">add your tasks here!</small>
+        </div>
 
-            <tr>
-                <td class="td1">
-                    A second task 
-                </td>
-                <td>
-                    <button type="submit" class="btn btn-light">Done</button>
-                </td>
-             
-                <td>
-                    <button type="submit" class="btn btn-light">Delete</button>
-                </td>
-            </tr>
-        </table> 
-    </body>
-</html> 
+
+        <p><strong><u>things to do</u></strong></p>
+
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <button type="button" class="btn btn-light">
+                        Done <span class="badge badge-light">0</span>
+                        <span class="sr-only">Completed</span>
+                    </button>
+                </div>
+                <div class="col">
+                    <button type="button" class="btn btn-light">Delete</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <button type="button" class="btn btn-light">
+                        Done <span class="badge badge-light">0</span>
+                        <span class="sr-only">Completed</span>
+                    </button>
+                </div>
+                <div class="col">
+                    <button type="button" class="btn btn-light">Delete</button>
+                </div>
+            </div>
+        </div>
+
+</body>
+
+</html>

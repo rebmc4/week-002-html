@@ -8,6 +8,10 @@ h1 {
     text-align: center; 
 }
 
+.form-group {
+    padding: 10;
+}
+
 input {
     border-color: mediumslateblue;
 }
@@ -31,13 +35,14 @@ p {
     font-size: 40; 
 }
 
-td { 
+.col { 
     font-family: 'Arapey', serif;
     color: rgb(54, 26, 82);
 }
 
-.td1 {
-    width: 200px; 
+.row {
+    width: 300px; 
+    
 } 
 
 @media only screen and (max-width: 600px) {
@@ -47,5 +52,8 @@ td {
 
     h1 {
         font-size:20;  
+    }
+    p {
+        font-size: 20; 
     }
 }
